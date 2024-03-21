@@ -28,7 +28,7 @@ body {
 
 header{
     position: fixed;
-    width: 100;
+    width: 100%;
     top: 0;
     right: 0;
     z-index: 100;
@@ -462,14 +462,15 @@ header.sticky {
 @media (max-width: 1545px){
     header{
         padding: 22px 4%;
-        transition: .2px;
+        transition: .2s;
     }
     header.sticky{
         padding: 14px 4%;
-        transition: .2px;
+        transition: .2s;
     }
     section{
         padding: 50px 4% 40px;
+        transition: .2s;
     }
     .container{
         padding: 30px 4% 50px;
@@ -487,7 +488,7 @@ header.sticky {
     }
 }
 
-@media(max-width){
+@media(max-width: 1076px){
     #menu-icon{
         display: initial;
     }
@@ -499,7 +500,7 @@ header.sticky {
         display: flex;
         flex-direction: column;
         text-align: left;
-        background: var(--main-color);
+        background: var(--other-color);
         transition: all 0.5s ease;
     }
     .navlist a{
@@ -523,7 +524,7 @@ header.sticky {
         max-width: 490px;
         height: auto;
     }
-    .about-img{
+    .about-img img{
         width: 100%;
         max-width: 490px;
         height: auto;
@@ -567,6 +568,6 @@ header.sticky {
 @media(max-width: 475px){
     :root{
         --big-font: 2.8rem;
-        --h2-font:
+        --h2-font: 2rem;
     }
 }
