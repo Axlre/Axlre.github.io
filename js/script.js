@@ -6,7 +6,7 @@ window.addEventListener('scroll', () =>{
 
 //open menu 
 
-let menu = document.querySelector('menu-icon');
+let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.navlist');
 
 menu.onclick = () =>{
