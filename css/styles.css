@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
     scroll-padding-top: 3rem;
 }
-
+ /* Declaracion de Estilos Primarios */
 :root {
     --main-color: #ff9f0d;
     --text-color: #fff;
@@ -107,7 +107,7 @@ header{
 }
 
 /* Home */
- section {
+section {
     padding: 70px 14% 60px;
 }
 
